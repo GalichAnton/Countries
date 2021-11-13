@@ -30,7 +30,7 @@ const Input = styled.input.attrs({
 
 
 
-const Search = ({search, setSearch}) => {
+export const Search = ({search, setSearch}) => {
   return (
     <InputContainer>
       <IoSearch/>
@@ -39,4 +39,4 @@ const Search = ({search, setSearch}) => {
   )
 }
 
-export default Search
+
